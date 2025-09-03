@@ -11,7 +11,7 @@ class App {
 
     this.routes();
 
-    this.app.get('/', (_req, res) => res.status(200).send('Trybeteca API no ar!'));
+    this.app.get('/', (_req, res) => res.status(200).send('API no ar!'));
   }
 
   private routes(): void {
